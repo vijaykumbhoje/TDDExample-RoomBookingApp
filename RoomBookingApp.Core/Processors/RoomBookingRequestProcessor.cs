@@ -1,6 +1,7 @@
 ﻿using RoomBookingApp.Core.DataService;
-using RoomBookingApp.Core.Domain;
 using RoomBookingApp.Core.Models;
+using RoomBookingApp.Domain;
+using RoomBookingApp.Domain.BaseModels;
 using System.Net.WebSockets;
 
 namespace RoomBookingApp.Core.Processors

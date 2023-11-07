@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Core.Tests",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Core", "RoomBookingApp.Core\RoomBookingApp.Core.csproj", "{93214F02-4956-4AB0-9AC8-A2DDB101DAED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Domain", "RoomBookingApp.Domain\RoomBookingApp.Domain.csproj", "{777F66B1-4477-45C9-BB3D-EEB2C281FF6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Persistence", "RoomBookingApp.Persistence\RoomBookingApp.Persistence.csproj", "{C8D140B0-6891-4896-8127-EF3E45B29D51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomBookingApp.Persistence.Tests", "RoomBookingApp.Persistence.Tests\RoomBookingApp.Persistence.Tests.csproj", "{17434112-AA83-42B3-AD5D-6D24CD10676B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{93214F02-4956-4AB0-9AC8-A2DDB101DAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93214F02-4956-4AB0-9AC8-A2DDB101DAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93214F02-4956-4AB0-9AC8-A2DDB101DAED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{777F66B1-4477-45C9-BB3D-EEB2C281FF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777F66B1-4477-45C9-BB3D-EEB2C281FF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777F66B1-4477-45C9-BB3D-EEB2C281FF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777F66B1-4477-45C9-BB3D-EEB2C281FF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D140B0-6891-4896-8127-EF3E45B29D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D140B0-6891-4896-8127-EF3E45B29D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D140B0-6891-4896-8127-EF3E45B29D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D140B0-6891-4896-8127-EF3E45B29D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17434112-AA83-42B3-AD5D-6D24CD10676B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17434112-AA83-42B3-AD5D-6D24CD10676B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17434112-AA83-42B3-AD5D-6D24CD10676B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17434112-AA83-42B3-AD5D-6D24CD10676B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
