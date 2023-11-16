@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 using RoomBookingApp.Core.DataService;
 using RoomBookingApp.Domain;
 using RoomBookingApp.Persistence.Repositories;
